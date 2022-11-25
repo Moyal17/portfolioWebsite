@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 
-import Sidebar from '../common/Sidebar';
 import useGlobalContext from '../../hooks/useGlobalContext';
 
 const HeaderComingSoon = () => {

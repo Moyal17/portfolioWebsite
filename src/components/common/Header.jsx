@@ -3,13 +3,10 @@ import { useTheme } from 'next-themes'
 import useSticky from '../../hooks/use-sticky';
 import Link from 'next/link';
 import useGlobalContext from '../../hooks/useGlobalContext';
-import Sidebar from './Sidebar';
 
 const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
   const { theme, setTheme } = useTheme();
   const { headerSticky } = useSticky();
-  const [searchOpen, setSearchOpen] = useState(false);
-  const {setShowSidebar} = useGlobalContext();
 
   return (
     <>
@@ -135,12 +132,6 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
           </div>
         </div>
       </header>
-
-
-      {/* Sidebar  */}
-      <Sidebar />
-      {/* Sidebar  */}
-
     </>
   );
 };
