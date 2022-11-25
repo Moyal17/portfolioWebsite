@@ -3,10 +3,12 @@ import { useTheme } from 'next-themes'
 import useSticky from '../../hooks/use-sticky';
 import Link from 'next/link';
 import useGlobalContext from '../../hooks/useGlobalContext';
+import Sidebar from '../common/Sidebar';
 
 const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
   const { theme, setTheme } = useTheme();
   const { headerSticky } = useSticky();
+  const {setShowSidebar} = useGlobalContext();
 
   return (
     <>
@@ -20,14 +22,14 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                   <div className="logo-dark">
                     <Link href="/">
                      <a>
-                     { homeNine ? <img src="/assets/img/logo/logo-white.png" alt="logo" style={{maxHeight: '80px'}} />
-                      : <img src="/assets/img/logo/logo-black.png" alt="logo" style={{maxHeight: '80px'}} />}
+                     { homeNine ? <img src="/assets/img/logo/logo-white.png" className="logoIcon" alt="logo" />
+                      : <img src="/assets/img/logo/logo-black.png" className="logoIcon" alt="logo" />}
                      </a>
                     </Link>
                   </div>
                   <div className="logo-white">
                      <Link href="/">
-                      <a><img src="/assets/img/logo/logo-white.png" alt="logo"  style={{maxHeight: '80px'}}/></a>
+                      <a><img src="/assets/img/logo/logo-white.png" alt="logo" className="logoIcon"/></a>
                     </Link>
                   </div>
                 </div>
@@ -100,6 +102,11 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           </div>
                           {/* dark mode button end  */}
                         </li>
+                        <li >
+                          <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
+                            <i className="fas fa-bars"></i>
+                          </button>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -121,6 +128,11 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                             </div>
                             {/* <!-- dark mode button end  --> */}
                           </li>
+                          <li >
+                            <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
+                              <i className="fas fa-bars"></i>
+                            </button>
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -132,6 +144,9 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
           </div>
         </div>
       </header>
+      {/* Sidebar  */}
+      <Sidebar />
+      {/* Sidebar  */}
     </>
   );
 };
