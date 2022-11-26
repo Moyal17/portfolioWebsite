@@ -8,13 +8,13 @@ const HeroSliderFour = () => {
     {
       id: 1,
       bg: 'assets/img/slider/slider-2-2.jpg',
-      title: 'WE PROVIDE BEST SERVICE WITH EXCLUSIVE FEATURES',
+      title: 'PROVIDE SERVICE WITH EXCLUSIVE FEATURES',
       subtitle: <>Producing <span>end-to-end products</span></>
     },
     {
       id: 2,
       bg: 'assets/img/slider/slider-2-3.jpg',
-      title: 'WE PROVIDE BEST SERVICE WITH EXCLUSIVE METARIALS',
+      title: 'PROVIDE BEST SERVICE WITH EXCLUSIVE METARIALS',
       subtitle: <>Growing <span>through Development</span></>
     },
     {
@@ -46,7 +46,7 @@ const HeroSliderFour = () => {
                       <div className="container">
                         <div className="row">
                           <div className="col-xl-12">
-                            <span className="tp-sub-title-2 mb-30"><a>{item.title}</a></span>
+                            <span className="tp-sub-title-2 mb-30 d-none"><a>{item.title}</a></span>
                             <h3 className="tpbs-slider__item-title">{item.subtitle}</h3>
                             <div className="tpbs-btn mt-40 display-none">
                               <Link href="/services" target="_blank">

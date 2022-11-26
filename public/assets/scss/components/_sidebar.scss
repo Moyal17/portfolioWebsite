@@ -28,7 +28,7 @@
         @media #{$xs}{
             width: 290px;
         }
-  
+
         &.sidebar-opened{
             right: 0px;
         }
@@ -36,26 +36,27 @@
     &__wrapper{
         position: relative;
         padding: 45px;
-        @media #{$xs}{
-           padding: 20px;
+        @media #{$sm,$xs}{
+            height: 100vh;
+            padding: 55px 20px 20px;
         }
     }
     &__close{
         position: absolute;
         top: 48px;
         right: 45px;
-        @media #{$xs}{
-            top: 22px;
+        @media #{$sm,$xs}{
+            top: 15px;
             right: 20px;
          }
         &-btn{
             display: inline-block;
-            font-size: 16px;
+            font-size: 35px;
             height: 45px;
             width: 45px;
             line-height: 49px;
-            background: var(--tp-theme-1);
-            color: var(--tp-common-white);
+            background: transparent;
+            color: var(--tp-gray-5);
             border-radius: 50%;
             &:hover{
                 background: var(--tp-theme-1);
@@ -164,10 +165,10 @@
                     line-height: 42px;
                     text-align: center;
                     background: var(--tp-grey-1);
-                    color: var(--tp-theme-1);
-                    @include border-radius(5px);
+                    color: var(--tp-purpule-1);
+                    @include border-radius(50%);
                     &:hover{
-                        background: var(--tp-theme-1);
+                        background: var(--tp-purpule-1);
                         color: var(--tp-common-white);
                     }
                 }
@@ -179,12 +180,14 @@
 
 
 
-// 
+//
 .sidebar_sub_menu{
     list-style: none;
 }
 .sidebar_sub_menu li{
+    /*
     border-bottom: 1px solid #ebebeb;
+    */
     padding-bottom: 5px;
 }
 
@@ -196,7 +199,7 @@
 }
 .Collapsible__trigger > a,.single_link{
     color: var(--tp-heading-primary);
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
     font-weight: 700;
 }
@@ -209,8 +212,10 @@
 .iconAdd{
     position: relative;
     color: var(--tp-heading-primary);
+    /*
     border-bottom: 1px solid #ebebeb;
-    padding: 9px 0;
+    */
+    padding: 15px 0;
 }
 .sub_child.iconAdd{
     padding: 0px;
@@ -271,4 +276,8 @@
 }
 .single_link.iconAdd::before{
     display: none;
+}
+.sidebar__social {
+    position: absolute;
+    bottom: 20px;
 }

@@ -80,7 +80,7 @@ const FooterFour = () => {
               <div className="row">
                 <div className="col-xxl-12">
                   <div className="footer__copyright">
-                    <p>© 2022 <a href="#">Nerox</a> - Agency & Portfolio Design . All Rights Reserved.</p>
+                    <p>© 2022 Dor Moyal - Strategic Web Development & Design. All Rights Reserved.</p>
                   </div>
                 </div>
               </div>

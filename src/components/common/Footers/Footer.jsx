@@ -1,6 +1,7 @@
 import { useFormik } from 'formik';
 import ErrorMsg from '../ErrorMsg';
 import { contactSchema } from '../schema';
+import React from "react";
 
 const Footer = () => {
    const handleOnSubmit = (values,{ resetForm }) => {
@@ -96,14 +97,13 @@ const Footer = () => {
          <div className="container">
             <div className="row align-items-center">
                <div className="col-xl-6 col-lg-8 col-md-6 col-sm-6">
-                  <p>© 2022 Nerox - Agency & Portfolio Design . All Rights Reserved.</p>
+                 <p>© 2022 Dor Moyal - Strategic Web Development & Design. All Rights Reserved.</p>
                </div>
                <div className="col-xl-6 col-lg-4 col-md-6 col-sm-6">
                   <div className="ft-social">
-                     <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                     <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                     <a href="#"><i className="fa-brands fa-youtube"></i></a>
-                     <a href="#"><i className="fa-brands fa-behance"></i></a>
+                    <a href="https://www.facebook.com/dormoyall" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/dormoyall" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dormoyall/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
                   </div>
                </div>
             </div>

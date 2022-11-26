@@ -10,8 +10,11 @@ const AboutArea = () => {
               <div className="tpabout-content-2 pb-50">
                 <h3 className="tpabout-xd-title mb-15"><b>Dor</b> Moyal</h3>
                 <span className="tpabout-xs-title mb-40">Digital Solution For your Business</span>
-                <p className="tpab-text mb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venquis nostrud exercitation ullamcoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="tpab-text mb-30">Nice to meet you, my name is Dor Moyal, I am a 7+ years experienced, Strategic and creative full-stack developer,
+                  Leverage strong technical experience to achieve strategic solutions, resolve complex issues, and improve operational effectiveness.<br/>
+                  Optimizing performance as a web designer & developer.<br/>
+                  Extensive exposure to cutting-edge web development technologies, software development, and project management, consistently meeting deadlines.
+                  Lead dynamic teams to maximize results.</p>
                 <div className="tpabout-btn mt-50">
                   <Link href="/contact"><a className="tp-solid-btn">Get in touch</a></Link>
                 </div>

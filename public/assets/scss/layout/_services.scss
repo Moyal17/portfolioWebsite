@@ -254,7 +254,7 @@
         text-align: right;
     }
     @media #{$sm,$xs} {
-        display: none;
+        top: -15%;
     }
 }
 .tpbs-services__slider-active{

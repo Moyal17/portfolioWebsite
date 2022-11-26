@@ -17,9 +17,7 @@ const Sidebar = ({ headerMenu }) => {
             </button>
           </div>
           <div className="sidebar__content">
-            <div className="sidebar__logo mb-40">
-            </div>
-            <div className="sidebar__search mb-25">
+            <div className="sidebar__search">
             </div>
 
             <div className="mobile-menu fix">

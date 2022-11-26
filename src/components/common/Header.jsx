@@ -102,7 +102,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                           </div>
                           {/* dark mode button end  */}
                         </li>
-                        <li >
+                        <li className="d-lg-none">
                           <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
                             <i className="fas fa-bars"></i>
                           </button>
@@ -128,7 +128,7 @@ const Header = ({ HeaderTwo, headerEight = false,homeNine}) => {
                             </div>
                             {/* <!-- dark mode button end  --> */}
                           </li>
-                          <li >
+                          <li className="d-lg-none">
                             <button onClick={() => setShowSidebar(true)} className="info-toggle-btn sidebar-toggle-btn">
                               <i className="fas fa-bars"></i>
                             </button>

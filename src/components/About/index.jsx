@@ -13,13 +13,11 @@ const index = () => {
   return (
     <>
       <Header/>
-      <Breadcrumb title="About Dor Moyal" subtitle="About Dor Moyal" />
+      <Breadcrumb title="About Me" subtitle="Dor Moyal" />
       <AboutArea/>
       <AboutCounter/>
       <CtaImages/>
       <BrandArea brand="-2" about="about-brand" />
-      <TestimonialFour/>
-      <NeroxAwards/>
       <FooterTwo/>
     </>
   );
