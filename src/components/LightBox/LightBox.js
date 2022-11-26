@@ -1,5 +1,7 @@
 import * as React from "react";
 import Lightbox from "yet-another-react-lightbox";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import Video from "yet-another-react-lightbox/plugins/video";
 import "yet-another-react-lightbox/styles.css";
 
 const LightBox = ({images}) => {
@@ -24,6 +26,7 @@ const LightBox = ({images}) => {
         open={open}
         close={() => setOpen(false)}
         slides={images}
+        plugins={[Video, Zoom]}
         index={index}
       />
     </>
