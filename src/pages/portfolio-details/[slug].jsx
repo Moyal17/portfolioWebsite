@@ -30,7 +30,7 @@ const PortfolioDetails = () => {
           <div className="row align-items-center">
             <div className="col-xl-5 col-lg-6">
               <div className="aboutme-image mb-40">
-                <img className="b-radius" src={`/${portfolioItem.img || "/assets/img/project/project-d.jpg"}`} alt="project img" />
+                <img className="b-radius" src={`${portfolioItem.img || "/assets/img/project/project-d.jpg"}`} alt="project img" />
               </div>
             </div>
             <div className="col-xl-7 col-lg-6">

@@ -20,15 +20,15 @@ const PortfolioTwo = () => {
               portfolioData.slice(0, 6).map(item => {
                 return (
                   <Link key={item.id} href={`/portfolio-details/${item.id}`}>
-                    <a className="col-xl-4 col-lg-6 col-md-6" href={`/portfolio-details/${item.id}`}>
+                    <a className="col-xl-4 col-lg-6 col-md-6 col-6" href={`/portfolio-details/${item.id}`}>
                       <div className="tpproject-2 tpproject-3 mb-30">
                         <div className="tpproject-2-thumbnail" style={{backgroundImage: `url(${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center'}}></div>
                         <div className="tpproject-2-text">
-                          <span className="catagory mb-10">{item.category}</span>
+                          <span className="catagory mb-10 d-md-inline-block d-none">{item.date}</span>
                           <h5 className="tpproject-2-title">
                             <a>{item.title}</a>
                           </h5>
-                          <div className="tpproject-btn mt-25 mb-10">
+                          <div className="tpproject-btn mt-25 mb-10 d-md-inline-block d-none">
                             <a>
                               <i className="flaticon-right-arrow-1"></i>
                             </a>

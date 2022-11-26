@@ -119,6 +119,9 @@
         position: relative;
         border-radius: 10px;
         min-height: 515px;
+        @media #{$sm, $xs} {
+            min-height: 210px;
+        }
         &:before {
             position: absolute;
             height: 0%;
@@ -266,6 +269,9 @@
     color: #fff;
     background-size: 0 1.5px, 100% 1.5px;
    }
+    @media #{$xs,$sm} {
+        font-size: 18px;
+    }
 }
 .tpproject-area{
     position: relative;
@@ -283,9 +289,9 @@
 }
 .tp-slide-active {
     .slick-list {
-    margin: 0 -15px; 
+    margin: 0 -15px;
     @media #{$sm,$xs} {
-        margin: 0 0; 
+        margin: 0 0;
     }
     }
     .slick-slide>div {
@@ -325,7 +331,7 @@
         background-repeat: no-repeat;
         transition: background-size 0.4s linear;
     }
-    
+
 }
 .tpfrn-project:hover .tpfrn-project__thumb{
     & img{
@@ -355,9 +361,9 @@
 }
 .tpfrn-slide-active{
     .slick-list {
-        margin: 0 -15px; 
+        margin: 0 -15px;
         // @media #{$sm,$xs} {
-        //     margin: 0 -20px; 
+        //     margin: 0 -20px;
         // }
     }
     .slick-slide>div {
@@ -441,7 +447,7 @@
             bottom: 0;
             visibility: visible;
             opacity: 1;
-        } 
+        }
         & .tpbs-project__thumb-image img{
 
             transform: scale3d(1.1, 1.1, 1.1);
@@ -739,4 +745,3 @@
     }
 }
 
-  

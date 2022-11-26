@@ -2,12 +2,12 @@ const portfolioPageData = [
   // aspire_mobile V
   {
     id: 'aspire_mobile',
-    img: 'assets/img/project/aspire-mobile2.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-mobile.jpg',
     images: [
-      {src: '/assets/img/project/aspire-mobile1.jpg', type: 'image', alt: "aspire mobile 1"},
-      {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 2"},
-      {src: '/assets/img/project/aspire-mobile3.jpg', type: 'image', alt: "aspire mobile 3"},
-      {src: '/assets/img/project/aspire-mobile4.jpg', type: 'image', alt: "aspire mobile 4"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-mobile1.jpg', type: 'image', alt: "aspire mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-mobile3.jpg', type: 'image', alt: "aspire mobile 3"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-mobile4.jpg', type: 'image', alt: "aspire mobile 4"},
     ],
     category: 'Mobile Design & Development',
     title: 'Aspire - Mobile App',
@@ -65,10 +65,11 @@ const portfolioPageData = [
   // aspire_trainer_platform V
   {
     id: 'aspire_trainer_platform',
-    img: 'assets/img/project/aspire-web-platform.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-platform.jpg',
     images: [
-      {src: '/assets/img/project/aspire-web-platform.jpg', type: 'image', alt: "aspire mobile 1" },
-      {src: '/assets/img/project/aspire-web-platform2.jpg', type: 'image', alt: "aspire mobile 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-web-platform.jpg', type: 'image', alt: "aspire mobile 1" },
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-web-platform2.jpg', type: 'image', alt: "aspire mobile 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-trainer-mock.jpg', type: 'image', alt: "aspire mobile 3" },
     ],
     category: 'Web Design & Development',
     title: 'Aspire - Trainer Platform',
@@ -122,11 +123,12 @@ const portfolioPageData = [
   // aspire_website V
   {
     id: 'aspire_website',
-    img: 'assets/img/project/aspire-website.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-website.jpg',
     images: [
-      {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 1"},
-      {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 2"},
-      {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 3"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-website.jpg', type: 'image', alt: "aspire mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-home-mock.jpg', type: 'image', alt: "aspire mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-blog-mock.jpg', type: 'image', alt: "aspire mobile 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-ourApp-mock.jpg', type: 'image', alt: "aspire mobile 3"},
     ],
     category: 'Web Design & Development',
     title: 'Aspire Website',
@@ -180,7 +182,7 @@ const portfolioPageData = [
   // eventer_admin_panel V
   {
     id: 'eventer_admin_panel',
-    img: 'assets/img/project/eventer-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/eventer-ticketing.jpg',
     images: [
       {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 1"},
       {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 2"},
@@ -468,10 +470,11 @@ const portfolioPageData = [
   // airsales_ecommerce V
   {
     id: 'airsales_ecommerce',
-    img: 'assets/img/project/airsales-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/airsales.jpg',
     images: [
-      {src: '/assets/img/project/airsales-mockup.jpg', type: 'image', alt: "airsales ecommerce"},
-      {src: '/assets/img/project/airsales-mockup.jpg', type: 'image', alt: "airsales ecommerce"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/airsales-mockup.jpg', type: 'image', alt: "airsales ecommerce"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/airsales-home.jpg', type: 'image', alt: "airsales ecommerce"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/airsales-hotel.jpg', type: 'image', alt: "airsales ecommerce"},
     ],
     category: 'Web Development',
     title: 'Air Sales Ecommerce Website',
