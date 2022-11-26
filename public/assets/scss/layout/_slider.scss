@@ -54,7 +54,7 @@
             }
             @media #{$sm,$xs} {
                 display: none !important;
-            }   
+            }
         }
         &-height{
             min-height: 760px;
@@ -201,7 +201,8 @@
             min-height: 700px;
         }
         @media #{$xs} {
-            min-height: 600px;
+            min-height: Calc(100vh - 70px);
+            max-height: Calc(100vh - 70px);
         }
     }
 }
@@ -275,7 +276,7 @@
             box-shadow: inset 0 0 0 1px var(--tp-theme-1);
             background-color: transparent;
         }
-        
+
     }
     & .tp-sub-title-2{
         -webkit-animation-delay: .3s;
