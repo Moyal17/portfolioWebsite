@@ -23,7 +23,7 @@ const PortfolioDetails = () => {
   }, [id])
   return (
     <>
-      <SEO pageTitle="Profile Details" />
+      <SEO pageTitle="Profile Details" url={`/portfolio-details/${id}`} />
       <Header />
       <div className="project-details-area pt-140 pb-130">
         <div className="container">

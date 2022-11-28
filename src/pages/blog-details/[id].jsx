@@ -53,7 +53,7 @@ const BlogDetails = () => {
   }, [id]);
   return (
     <>
-      <SEO pageTitle="Blog Details" />
+      <SEO pageTitle="Blog Details" url="/about"/>
       <Header />
       <Breadcrumb title="BLOG DETAILS" subtitle="Blog Details" />
 

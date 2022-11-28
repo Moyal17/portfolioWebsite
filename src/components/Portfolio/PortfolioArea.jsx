@@ -17,7 +17,7 @@ const PortfolioArea = () => {
                   <div className="tpproject-2 tpproject-3 mb-30">
                     <div className="tpproject-2-thumbnail" style={{ backgroundImage: `url(${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}></div>
                     <div className="tpproject-2-text">
-                      <span className="catagory mb-10">{item.category}</span>
+                      <span className="catagory mb-10">{item.date}</span>
                       <h5 className="tpproject-2-title">
                         <Link href={`/portfolio-details/${item.id}`}>
                           <a>{item.title}</a>

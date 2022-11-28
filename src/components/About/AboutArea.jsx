@@ -9,7 +9,7 @@ const AboutArea = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="tpabout-content-2 pb-50">
                 <h3 className="tpabout-xd-title mb-15"><b>Dor</b> Moyal</h3>
-                <span className="tpabout-xs-title mb-40">Digital Solution For your Business</span>
+                <span className="tpabout-xs-title mb-40">Strategic & creative full-stack developer</span>
                 <p className="tpab-text mb-30">Nice to meet you, my name is Dor Moyal, I am a 7+ years experienced, Strategic and creative full-stack developer,
                   Leverage strong technical experience to achieve strategic solutions, resolve complex issues, and improve operational effectiveness.<br/>
                   Optimizing performance as a web designer & developer.<br/>

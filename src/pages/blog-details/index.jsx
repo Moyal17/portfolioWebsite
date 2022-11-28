@@ -5,7 +5,7 @@ import BlogDetailsMain from '../../components/Blog-details';
 const index = () => {
   return (
     <>
-      <SEO pageTitle="Blog Details" />
+      <SEO pageTitle="Blog Details" url="/about"/>
       <BlogDetailsMain/>
     </>
   );

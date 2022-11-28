@@ -26,7 +26,7 @@ const ServiceDetails = () => {
 
   return (
     <>
-      <SEO pageTitle="Profile Details" />
+      <SEO pageTitle="Profile Details" url={`/portfolio-details/${id}`} />
       <Header />
       <Breadcrumb title="SERVICE DETAILS" subtitle="Service Details"/>
 

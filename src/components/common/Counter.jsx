@@ -2,7 +2,7 @@ import { useState } from "react";
 import CountUp from "react-countup";
 import { InView } from "react-intersection-observer";
 
-const Counter = ({number}) => {
+const Counter = ({number, id}) => {
   const [focus, setFocus] = useState(false);
   const visibleChangeHandler = (isVisible) => {
     if (isVisible) {
@@ -24,7 +24,8 @@ const Counter = ({number}) => {
               }
             >
               <>
-                <span>+</span>
+
+                <span>{ id == 2 ? 'K' : ''}+</span>
               </>
             </InView>
           </div>

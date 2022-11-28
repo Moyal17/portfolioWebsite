@@ -281,6 +281,9 @@ const portfolioPageData = [
         </ul>
       </div>
     ),
+    back: 'eventer_admin_panel',
+    current: 'eventer_ticket_sell',
+    next: 'round_robin_website_new'
   },
   // round_robin_website_new V
   {
@@ -326,6 +329,9 @@ const portfolioPageData = [
         </p>
       </div>
     ),
+    back: 'eventer_ticket_sell',
+    current: 'round_robin_website_new',
+    next: 'round_robin_website'
   },
   // round_robin_website V
   {
@@ -372,6 +378,9 @@ const portfolioPageData = [
         </p>
       </div>
     ),
+    back: 'round_robin_website_new',
+    current: 'round_robin_website',
+    next: 'center_parcs_ecommerce'
   },
   // center_parcs_ecommerce V
   {
@@ -420,6 +429,9 @@ const portfolioPageData = [
         </ul>
       </div>
     ),
+    back: 'round_robin_website',
+    current: 'center_parcs_ecommerce',
+    next: 'shaked_tours_ecommerce'
   },
   // shaked_tours_ecommerce V
   {
@@ -471,6 +483,9 @@ const portfolioPageData = [
         </ul>
       </div>
     ),
+    back: 'center_parcs_ecommerce',
+    current: 'shaked_tours_ecommerce',
+    next: 'airsales_ecommerce'
   },
   // airsales_ecommerce V
   {
@@ -521,6 +536,9 @@ const portfolioPageData = [
         </ul>
       </div>
     ),
+    back: 'shaked_tours_ecommerce',
+    current: 'airsales_ecommerce',
+    next: 'graiver_ecommerce'
   },
   // graiver_ecommerce
   {
@@ -571,6 +589,9 @@ const portfolioPageData = [
         </ul>
       </div>
     ),
+    back: 'airsales_ecommerce',
+    current: 'graiver_ecommerce',
+    next: 'ynet_ecommerce'
   },
   // Ynet_ecommerce V
   {
@@ -770,7 +791,7 @@ const portfolioPageData = [
   // beepost_app V
   {
     id: 'beepost_app',
-    img: 'assets/img/project/bepost-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/beepost.jpg',
     images: [
       {src: '/assets/img/project/bepost-mockup.jpg', type: 'image', alt: "beepost app mobile 1"},
       {src: '/assets/img/project/bepost-mockup-mobile.jpg', type: 'image', alt: "beepost app mobile 2"},
