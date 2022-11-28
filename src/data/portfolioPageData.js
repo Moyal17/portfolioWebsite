@@ -4,10 +4,10 @@ const portfolioPageData = [
     id: 'aspire_mobile',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-mobile.jpg',
     images: [
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-mobile1.jpg', type: 'image', alt: "aspire mobile 1"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 2"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-mobile3.jpg', type: 'image', alt: "aspire mobile 3"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-mobile4.jpg', type: 'image', alt: "aspire mobile 4"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-mobile/mobile1.jpg', type: 'image', alt: "aspire mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-mobile/mobile2.jpg', type: 'image', alt: "aspire mobile 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-mobile/mobile3.jpg', type: 'image', alt: "aspire mobile 3"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-mobile/mobile4.jpg', type: 'image', alt: "aspire mobile 4"},
     ],
     category: 'Mobile Design & Development',
     title: 'Aspire - Mobile App',
@@ -67,9 +67,9 @@ const portfolioPageData = [
     id: 'aspire_trainer_platform',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-platform.jpg',
     images: [
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-web-platform.jpg', type: 'image', alt: "aspire mobile 1" },
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-web-platform2.jpg', type: 'image', alt: "aspire mobile 2"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-trainer-mock.jpg', type: 'image', alt: "aspire mobile 3" },
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-platform/aspire-web-platform.jpg', type: 'image', alt: "aspire platform 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-platform/aspire-web-platform2.jpg', type: 'image', alt: "aspire platform 3"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-platform/aspire-trainer-mock.jpg', type: 'image', alt: "aspire platform 1"},
     ],
     category: 'Web Design & Development',
     title: 'Aspire - Trainer Platform',
@@ -125,10 +125,10 @@ const portfolioPageData = [
     id: 'aspire_website',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-website.jpg',
     images: [
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-website.jpg', type: 'image', alt: "aspire mobile 1"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-home-mock.jpg', type: 'image', alt: "aspire mobile 1"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-blog-mock.jpg', type: 'image', alt: "aspire mobile 2"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/aspire-ourApp-mock.jpg', type: 'image', alt: "aspire mobile 3"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-site/mockup.jpg', type: 'image', alt: "aspire website 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-site/home.jpg', type: 'image', alt: "aspire website 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-site/blog.jpg', type: 'image', alt: "aspire website 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/aspire-site/ourapp.jpg', type: 'image', alt: "aspire website 3"},
     ],
     category: 'Web Design & Development',
     title: 'Aspire Website',
@@ -330,10 +330,11 @@ const portfolioPageData = [
   // round_robin_website V
   {
     id: 'round_robin_website',
-    img: 'assets/img/project/rndrobin-mockup1.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/rndrobin.jpg',
     images: [
-      {src: '/assets/img/project/rndrobin-mockup.jpg', type: 'image', alt: "aspire mobile 1"},
-      {src: '/assets/img/project/rndrobin-mockup.jpg', type: 'image', alt: "aspire mobile 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/rndrobin/mockup1.jpg', type: 'image', alt: "rndrobin website 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/rndrobin/home.jpg', type: 'image', alt: "rndrobin website 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/rndrobin/pages.jpg', type: 'image', alt: "rndrobin website 3"},
     ],
     category: 'Web Development',
     title: 'Round Robin Website',
@@ -375,10 +376,12 @@ const portfolioPageData = [
   // center_parcs_ecommerce V
   {
     id: 'center_parcs_ecommerce',
-    img: 'assets/img/project/centerParcs-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/centerparcs.jpg',
     images: [
-      {src: '/assets/img/project/centerParcs-mockup.jpg', type: 'image', alt: "aspire mobile 1"},
-      {src: '/assets/img/project/centerParcs-mockup.jpg', type: 'image', alt: "aspire mobile 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/centerparcs/mockup.jpg', type: 'image', alt: "centerParcs mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/centerparcs/home.jpg', type: 'image', alt: "centerParcs home"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/centerparcs/search.jpg', type: 'image', alt: "centerParcs search"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/centerparcs/pages.jpg', type: 'image', alt: "centerParcs pages"},
     ],
     category: 'Web Development',
     title: 'Center Parcs Ecommerce Website',
@@ -421,10 +424,12 @@ const portfolioPageData = [
   // shaked_tours_ecommerce V
   {
     id: 'shaked_tours_ecommerce',
-    img: 'assets/img/project/shakedtours-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/shakedtours.jpg',
     images: [
-      {src: '/assets/img/project/shakedtours-mockup.jpg', type: 'image', alt: "aspire mobile 1"},
-      {src: '/assets/img/project/shakedtours-mockup.jpg', type: 'image', alt: "aspire mobile 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/shakedTours/mockup.jpg', type: 'image', alt: "shakedTours mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/shakedTours/home.jpg', type: 'image', alt: "shakedTours home"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/shakedTours/hotels.jpg', type: 'image', alt: "shakedTours hotels"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/shakedTours/flights.jpg', type: 'image', alt: "shakedTours flights"},
     ],
     category: 'Web Development',
     title: 'Shaked Tours Ecommerce Website',
@@ -472,9 +477,9 @@ const portfolioPageData = [
     id: 'airsales_ecommerce',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/airsales.jpg',
     images: [
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/airsales-mockup.jpg', type: 'image', alt: "airsales ecommerce"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/airsales-home.jpg', type: 'image', alt: "airsales ecommerce"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects-mockups/airsales-hotel.jpg', type: 'image', alt: "airsales ecommerce"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/airsales/mockup.jpg', type: 'image', alt: "airsales mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/airsales/home.jpg', type: 'image', alt: "airsales home"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/airsales/hotels.jpg', type: 'image', alt: "airsales hotels"},
     ],
     category: 'Web Development',
     title: 'Air Sales Ecommerce Website',
@@ -517,13 +522,14 @@ const portfolioPageData = [
       </div>
     ),
   },
-  // graiver_ecommerce  V
+  // graiver_ecommerce
   {
     id: 'graiver_ecommerce',
-    img: 'assets/img/project/graiver-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/graiver.jpg',
     images: [
-      {src: '/assets/img/project/graiver-mockup.jpg', type: 'image', alt: "graiver_ecommerce"},
-      {src: '/assets/img/project/graiver-mockup.jpg', type: 'image', alt: "graiver_ecommerce"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/graiver/graiver-mockup.jpg', type: 'image', alt: "graiver mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/graiver/home.jpg', type: 'image', alt: "graiver mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/graiver/flights.jpg', type: 'image', alt: "graiver mockup"},
     ],
     category: 'Web Development',
     title: 'Graiver Ecommerce Website',
@@ -569,10 +575,12 @@ const portfolioPageData = [
   // Ynet_ecommerce V
   {
     id: 'ynet_ecommerce',
-    img: 'assets/img/project/ynet-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/ynet.jpg',
     images: [
-      {src: '/assets/img/project/ynet-mockup.jpg', type: 'image', alt: "ynet ecommerce"},
-      {src: '/assets/img/project/ynet-mockup.jpg', type: 'image', alt: "ynet ecommerce"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ynet/mockup.jpg', type: 'image', alt: "ynet mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ynet/home.jpg', type: 'image', alt: "ynet home"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ynet/hotels.jpg', type: 'image', alt: "ynet hotels"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ynet/flights.jpg', type: 'image', alt: "ynet hotels"},
     ],
     category: 'Web Development',
     title: 'Ynet Ecommerce Website',
@@ -614,13 +622,14 @@ const portfolioPageData = [
       </div>
     ),
   },
-  // pegasus_ecommerce V
+  // pegasus_ecommerce
   {
     id: 'pegasus_ecommerce',
-    img: 'assets/img/project/pegasus-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/pegasus.jpg',
     images: [
-      {src: '/assets/img/project/pegasus-mockup.jpg', type: 'image', alt: "pegasus_ecommerce"},
-      {src: '/assets/img/project/pegasus-mockup.jpg', type: 'image', alt: "pegasus_ecommerce"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/pegasus/pegasus-mockup.jpg', type: 'image', alt: "pegasus mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/pegasus/home.jpg', type: 'image', alt: "pegasus mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/pegasus/hotels2.jpg', type: 'image', alt: "pegasus mockup"},
     ],
     category: 'Web Development',
     title: 'Pegasus Tours Ecommerce Website',
@@ -666,10 +675,10 @@ const portfolioPageData = [
   // airindia_ecommerce V
   {
     id: 'airindia_ecommerce',
-    img: 'assets/img/project/airindia-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/airindia.jpg',
     images: [
-      {src: '/assets/img/project/airindia-mockup.jpg', type: 'image', alt: "airindia_ecommerce"},
-      {src: '/assets/img/project/airindia-mockup.jpg', type: 'image', alt: "airindia_ecommerce"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/airIndia/mockup.jpg', type: 'image', alt: "airindia mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/airIndia/home.jpg', type: 'image', alt: "airindia home"},
     ],
     category: 'Web Development',
     title: 'Air India Ecommerce Website',
@@ -714,10 +723,13 @@ const portfolioPageData = [
   // alray_ecommerce
   {
     id: 'alray_ecommerce',
-    img: 'assets/img/project/alray-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/alray.jpg',
     images: [
-      {src: '/assets/img/project/alray-mockup.jpg', type: 'image', alt: "Alray mobile 1"},
-      {src: '/assets/img/project/alray-mockup.jpg', type: 'image', alt: "Alray mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/alray/alray-mockup.jpg', type: 'image', alt: "alray mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/alray/home.jpg', type: 'image', alt: "alray mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/alray/home2.jpg', type: 'image', alt: "alray mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/alray/hotels.jpg', type: 'image', alt: "alray mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/alray/orderProcess.jpg', type: 'image', alt: "alray mockup"},
     ],
     category: 'Web Development',
     title: 'Alray Ecommerce Website',
@@ -780,10 +792,11 @@ const portfolioPageData = [
   // quarterback V
   {
     id: 'quarterback',
-    img: 'assets/img/project/quarterback-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/qb.jpg',
     images: [
-      {src: '/assets/img/project/quarterback-mockup2.jpg', type: 'image', alt: "quarterback 1"},
-      {src: '/assets/img/project/quarterback-mockup3.jpg', type: 'image', alt: "quarterback 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/qb/mockup.jpg', type: 'image', alt: "quarterback mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/qb/mockup2.jpg', type: 'image', alt: "quarterback mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/qb/mockup3.jpg', type: 'image', alt: "quarterback mockup"},
     ],
     category: 'Web Development',
     title: 'Quarterback Gaming Extension',
@@ -822,10 +835,13 @@ const portfolioPageData = [
   // ornadlan V
   {
     id: 'ornadlan',
-    img: 'assets/img/project/ornadlan-mockup-website.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/ornadlan.jpg',
     images: [
-      {src: '/assets/img/project/ornadlan-mockup-website.jpg', type: 'image', alt: "ornadlan 1"},
-      {src: '/assets/img/project/ornadlan-mockup-admin.jpg', type: 'image', alt: "ornadlan 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/mockup.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/mockup-admin.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/home.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/realestates.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/pages.jpg', type: 'image', alt: "ornadlan mockup"},
     ],
     category: 'Web Development',
     title: 'Or-Nadlan Website',
@@ -855,10 +871,13 @@ const portfolioPageData = [
   // s2r V
   {
     id: 's2r',
-    img: 'assets/img/project/s2r-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/s2r.jpg',
     images: [
-      {src: '/assets/img/project/s2r-mockup.jpg', type: 'image', alt: "s2r 1"},
-      {src: '/assets/img/project/s2r-mockup.jpg', type: 'image', alt: "s2r 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/mockup.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/mockup-admin.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/home.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/realestates.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/pages.jpg', type: 'image', alt: "ornadlan mockup"},
     ],
     category: 'Web Development',
     title: 'S2R Website',
