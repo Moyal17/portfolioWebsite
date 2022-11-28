@@ -3,7 +3,7 @@ import Link from 'next/link';
 import portfolioData from '../../data/portfolioData';
 import Pagination from '../common/Pagination';
 
-const portfolioItems = portfolioData.slice(0, 17)
+const portfolioItems = portfolioData.slice(0, 19)
 
 const PortfolioArea = () => {
   return (
@@ -38,7 +38,9 @@ const PortfolioArea = () => {
 
           </div>
           {/* pagination start */}
+{/*
           <Pagination />
+*/}
           {/* pagination end */}
         </div>
       </div>
