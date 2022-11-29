@@ -1,6 +1,5 @@
 
 const portfolioData = [
-  // aspire_mobile V
   {
     id: 'aspire_mobile',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-mobile.jpg',
@@ -9,7 +8,6 @@ const portfolioData = [
     client: 'ASPIRE | Personal Training',
     date: 'January, 2020',
   },
-  // aspire_trainer_platform V
   {
     id: 'aspire_trainer_platform',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-platform.jpg',
@@ -18,7 +16,6 @@ const portfolioData = [
     client: 'ASPIRE | Personal Training',
     date: 'January, 2020'
   },
-  // aspire_website V
   {
     id: 'aspire_website',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-website.jpg',
@@ -27,7 +24,6 @@ const portfolioData = [
     client: 'ASPIRE | Personal Training',
     date: 'January, 2020'
   },
-  // center_parcs_ecommerce V
   {
     id: 'center_parcs_ecommerce',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/centerparcs.jpg',
@@ -36,7 +32,6 @@ const portfolioData = [
     client: 'Round Trip | SaaS Travel Platform',
     date: 'February, 2019'
   },
-  // Ynet_ecommerce V
   {
     id: 'ynet_ecommerce',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/ynet.jpg',
@@ -45,7 +40,6 @@ const portfolioData = [
     client: 'Round Trip | SaaS Travel Platform',
     date: 'July, 2018'
   },
-  // ornadlan V
   {
     id: 'ornadlan',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/ornadlan.jpg',
@@ -54,16 +48,6 @@ const portfolioData = [
     client: 'Or-Nadlan Real Estate',
     date: 'July, 2018',
   },
-  // pegasus_ecommerce
-  {
-    id: 'pegasus_ecommerce',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/pegasus.jpg',
-    category: 'Web Development',
-    title: 'Pegasus Tours Ecommerce Website',
-    client: 'Round Trip | SaaS Travel Platform',
-    date: 'April, 2018'
-  },
-  // quarterback V
   {
     id: 'quarterback',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/qb.jpg',
@@ -72,16 +56,6 @@ const portfolioData = [
     client: 'Quarterback | Gaming Platform',
     date: 'November, 2017',
   },
-  // alray_ecommerce
-  {
-    id: 'alray_ecommerce',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/alray.jpg',
-    category: 'Web Development',
-    title: 'Alray Ecommerce Website',
-    client: 'Round Trip | SaaS Travel Platform',
-    date: 'July, 2018',
-  },
-  // shaked_tours_ecommerce V
   {
     id: 'shaked_tours_ecommerce',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/shakedtours.jpg',
@@ -90,7 +64,30 @@ const portfolioData = [
     client: 'Round Trip | SaaS Travel Platform',
     date: 'December, 2018'
   },
-  // airsales_ecommerce V
+  {
+    id: 'alray_ecommerce',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/alray.jpg',
+    category: 'Web Development',
+    title: 'Alray Ecommerce Website',
+    client: 'Round Trip | SaaS Travel Platform',
+    date: 'July, 2018',
+  },
+  {
+    id: 'acceptivent',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/acceptivent/mockup4.jpg',
+    category: 'Web Development',
+    title: 'Acceptivent',
+    client: 'Acceptivent | Plan your Wedding',
+    date: 'May, 2018'
+  },
+  {
+    id: 'pegasus_ecommerce',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/pegasus.jpg',
+    category: 'Web Development',
+    title: 'Pegasus Tours Ecommerce Website',
+    client: 'Round Trip | SaaS Travel Platform',
+    date: 'April, 2018'
+  },
   {
     id: 'airsales_ecommerce',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/airsales.jpg',
@@ -99,7 +96,14 @@ const portfolioData = [
     client: 'Round Trip | SaaS Travel Platform',
     date: 'October, 2018',
   },
-  // graiver_ecommerce
+  {
+    id: 'eventer_admin_panel',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/eventer1.jpg',
+    category: 'Web Development',
+    title: 'Eventer - Admin Panel',
+    client: 'Eventer | Ticketing System',
+    date: 'August, 2017',
+  },
   {
     id: 'graiver_ecommerce',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/graiver.jpg',
@@ -108,7 +112,6 @@ const portfolioData = [
     client: 'Round Trip | SaaS Travel Platform',
     date: 'July, 2017',
   },
-  // airindia_ecommerce V
   {
     id: 'airindia_ecommerce',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/airindia.jpg',
@@ -117,16 +120,6 @@ const portfolioData = [
     client: 'Round Trip | SaaS Travel Platform',
     date: 'June , 2017'
   },
-  // eventer_ticket_sell V
-  {
-    id: 'eventer_ticket_sell',
-    img: 'assets/img/project/eventer-mockup.jpg',
-    category: 'Web Development',
-    title: 'Eventer - Ticket Selling Platform',
-    client: 'Eventer | Ticketing System',
-    date: 'April, 2017'
-  },
-  // round_robin_website_new V
   {
     id: 'round_robin_website_new',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/rndrobin2.jpg',
@@ -135,8 +128,6 @@ const portfolioData = [
     client: 'Round Robin',
     date: 'January, 2017'
   },
-
-  // beepost_app V
   {
     id: 'beepost_app',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/beepost.jpg',
@@ -145,25 +136,14 @@ const portfolioData = [
     client: 'Round Robin | Entrepreneurship Program',
     date: 'February, 2017'
   },
-  // eventer_admin_panel V
   {
-    id: 'eventer_admin_panel',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/eventer-ticketing.jpg',
+    id: 'eventer_ticket_sell',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/eventer2.jpg',
     category: 'Web Development',
-    title: 'Eventer - Admin Panel',
+    title: 'Eventer - Ticket Selling Platform',
     client: 'Eventer | Ticketing System',
-    date: 'August, 2015',
+    date: 'April, 2015'
   },
-  // round_robin_website V
-  {
-    id: 'round_robin_website',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/rndrobin.jpg',
-    category: 'Web Development',
-    title: 'Round Robin Website',
-    client: 'Round Robin',
-    date: 'April, 2015',
-  },
-  // s2r V
   {
     id: 's2r',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/s2r.jpg',
@@ -171,6 +151,14 @@ const portfolioData = [
     title: 'S2R Website',
     client: 'S2R Website',
     date: 'November, 2015',
+  },
+  {
+    id: 'round_robin_website',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/rndrobin.jpg',
+    category: 'Web Development',
+    title: 'Round Robin Website',
+    client: 'Round Robin',
+    date: 'April, 2015',
   },
 ]
 

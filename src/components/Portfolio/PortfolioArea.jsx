@@ -3,7 +3,7 @@ import Link from 'next/link';
 import portfolioData from '../../data/portfolioData';
 import Pagination from '../common/Pagination';
 
-const portfolioItems = portfolioData.slice(0, 19)
+const portfolioItems = portfolioData.slice(0, 25)
 
 const PortfolioArea = () => {
   return (

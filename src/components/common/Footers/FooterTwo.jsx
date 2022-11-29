@@ -4,7 +4,7 @@ const FooterTwo = () => {
   return (
     <>
       <footer>
-        <div className="tpfooter-area black-bg-2 pt-115 pb-75">
+        <div className="tpfooter-area black-bg-2 pt-115 pb-35">
           <div className="container">
             <div className="row">
               <div className="col-xl-6 col-lg-4 col-md-6">

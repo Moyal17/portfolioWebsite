@@ -182,11 +182,12 @@ const portfolioPageData = [
   // eventer_admin_panel V
   {
     id: 'eventer_admin_panel',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/eventer-ticketing.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/eventer1.jpg',
     images: [
-      {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 1"},
-      {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 2"},
-      {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 3"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/eventer-admin/eventer-mockup2.jpg', type: 'image', alt: "aspire mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/eventer-admin/event.jpg', type: 'image', alt: "aspire mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/eventer-admin/event2.jpg', type: 'image', alt: "aspire mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/eventer-admin/event3.jpg', type: 'image', alt: "aspire mobile 1"},
     ],
     category: 'Web Development',
     title: 'Eventer - Admin Panel',
@@ -235,11 +236,12 @@ const portfolioPageData = [
   // eventer_ticket_sell V
   {
     id: 'eventer_ticket_sell',
-    img: 'assets/img/project/eventer-mockup.jpg',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/eventer2.jpg',
     images: [
-      {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 1"},
-      {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 2"},
-      {src: '/assets/img/project/aspire-mobile2.jpg', type: 'image', alt: "aspire mobile 3"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/eventer-ticket/eventer-mockup.jpg', type: 'image', alt: "aspire mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/eventer-ticket/home.jpg', type: 'image', alt: "aspire mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/eventer-ticket/intro.jpg', type: 'image', alt: "aspire mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/eventer-ticket/eventer-events.jpg', type: 'image', alt: "aspire mobile 1"},
     ],
     category: 'Web Development',
     title: 'Eventer - Ticket Selling Platform',
@@ -793,8 +795,8 @@ const portfolioPageData = [
     id: 'beepost_app',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/beepost.jpg',
     images: [
-      {src: '/assets/img/project/bepost-mockup.jpg', type: 'image', alt: "beepost app mobile 1"},
-      {src: '/assets/img/project/bepost-mockup-mobile.jpg', type: 'image', alt: "beepost app mobile 2"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/beepost/mobile2.jpg', type: 'image', alt: "beepost app mobile 1"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/beepost/web.jpg', type: 'image', alt: "beepost web 2"},
     ],
     category: 'Web Development',
     title: 'Bee-Post Web Extension',
@@ -894,11 +896,10 @@ const portfolioPageData = [
     id: 's2r',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/s2r.jpg',
     images: [
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/mockup.jpg', type: 'image', alt: "ornadlan mockup"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/mockup-admin.jpg', type: 'image', alt: "ornadlan mockup"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/home.jpg', type: 'image', alt: "ornadlan mockup"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/realestates.jpg', type: 'image', alt: "ornadlan mockup"},
-      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/ornadlan/pages.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/s2r/s2r-mockup.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/s2r/home.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/s2r/about.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/s2r/clients.jpg', type: 'image', alt: "ornadlan mockup"},
     ],
     category: 'Web Development',
     title: 'S2R Website',
@@ -910,6 +911,42 @@ const portfolioPageData = [
     description: [
       'S2R was established by Dr. Etay Shilony, a leading expert in strategic – organizational planning and implementation. The company assists organizations with the integration of vision and strategy through building supporting organizational structure, culture, procedures and behaviors. S2R is committed to high levels of service, excellence and accuracy.',
       'S2R is a leading consulting firm serving organizations in Israel and worldwide. Our team of experts provide experience and excellence resulting in a variety of solutions for the challenges presented by our clients.'
+    ],
+    workExperience: () => (
+      <div>
+        <p>Environment: AngularJS, HTML5, CSS, Node.js, MongoDB, Redis.</p>
+        <ul style={{paddingInlineStart: '15px', fontSize: '1.1em'}}>
+          <li>Planed and execute a <b>full product life cycle</b> for the first time.</li>
+          <li>Developed code following common security practices and development design patterns</li>
+          <li>Documented 100% of technical specifications and dependencies of applications</li>
+          <li>Maintained system and application as support for 3 years (break-fix and data changes)</li>
+          <li>created a dynamic architecture for reusable code App wide.</li>
+          <li>Aligning all quality parameters in design and performance for product.</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    id: 'acceptivent',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/acceptivent/mockup1.jpg',
+    images: [
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/acceptivent/mockup1.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/acceptivent/mockup2.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/acceptivent/mockup3.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/acceptivent/mockup4.jpg', type: 'image', alt: "ornadlan mockup"},
+      {src: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/acceptivent/mockup5.jpg', type: 'image', alt: "ornadlan mockup"},
+    ],
+    category: 'Web Development',
+    title: 'Acceptivent Website & Mobile',
+    client: 'Acceptivent | Plan your Wedding',
+    date: 'May, 2018',
+    social: {
+      website: 'https://www.acceptivent.com/',
+    },
+    description: [
+      'Acceptivent is a platform designed to answer your every need for managing RSVP\'S to you wedding, birthday or even just a planing a night out with all of your friends.',
+      'a SMARTER event management Platform.',
+      'The best experience for your event to start before the time comes, Acceptivent gives you a platform to control your guests list.'
     ],
     workExperience: () => (
       <div>
