@@ -17,7 +17,9 @@ const index = () => {
       <AboutArea/>
       <AboutCounter/>
       <CtaImages/>
+{/*
       <BrandArea brand="-2" about="about-brand" />
+*/}
       <FooterTwo/>
     </>
   );

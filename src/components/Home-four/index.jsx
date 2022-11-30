@@ -24,7 +24,9 @@ const HomeFourMain = () => {
       <VideoAreaFour/>
       <PortfolioTwo/>
       <CtaFour/>
+{/*
       <BrandArea hideTopBar={true} />
+*/}
       <CtaTwo/>
       {/*<BlogFour/>*/}
       <FooterThree/>

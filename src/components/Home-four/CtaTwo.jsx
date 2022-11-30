@@ -13,7 +13,7 @@ const CtaTwo = () => {
                     <h4 className="tpcta-title mb-40">Enough Talk, Lets Build Something Unique & Creative</h4>
                     <div className="tpcta-button">
                       <Link href="/contact">
-                        <a className="tp-white-btn">Jump for a meeting</a>
+                        <a className="tp-white-btn">Contact Me</a>
                       </Link>
                     </div>
                   </div>
