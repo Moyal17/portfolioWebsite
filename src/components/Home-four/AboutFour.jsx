@@ -62,7 +62,6 @@ const AboutFour = () => {
                         <p>Managed & developed data structure.</p>
                       </div>
                     </li>
-
                   </ul>
                 </div>
                 <div className="tpbs-button mt-50 display-none">

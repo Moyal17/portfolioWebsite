@@ -3,7 +3,7 @@ import Link from 'next/link';
 const CtaTwo = () => {
   return (
     <>
-      <section className="tpcta-area p-relative box-plr-85">
+      <section className="tpcta-area p-relative box-plr-85 mt-75">
         <div className="container-fluid">
           <div className="tpcta-wrapper-2 text-center pt-130 pb-150" style={{ backgroundImage: 'url(assets/img/bg/cta-bg.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className="container">

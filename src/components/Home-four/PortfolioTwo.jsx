@@ -5,7 +5,7 @@ const PortfolioTwo = () => {
 
   return (
     <>
-      <section className="tpproject-area-2 pt-115 pb-115">
+      <section className="tpproject-area-2 pt-115 pb-75">
         <div className="container">
           <div className="row">
             <div className="col-xl-12">

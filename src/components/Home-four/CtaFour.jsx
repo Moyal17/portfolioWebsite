@@ -6,7 +6,7 @@ const CtaFour = () => {
       <div className="tpbs-cta-area">
         <div className="container">
           <div className="row">
-            <div className="col-xl-12 mb-135">
+            <div className="col-xl-12 mb-75 mt-75">
               <div className="tpbs-section-wrapper text-center mb-60">
                 <span className="tpbs-sub-title mb-15">Let’s work together</span>
                 <h3 className="tpbs-title-df"><a href="mailto:moyal17@gmail.com">moyal17@gmail</a><span>.com</span></h3>
