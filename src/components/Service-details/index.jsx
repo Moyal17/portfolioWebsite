@@ -10,10 +10,8 @@ const index = () => {
   return (
     <>
       <Header/>
-      <Breadcrumb title="SERVICE DETAILS" subtitle="Service Details" />
+      <Breadcrumb title="MY SERVICES" subtitle="My Services" />
       <ServiceDetailsArea/>
-      <ServiceContact/>
-      <BrandArea padd="services-padd" />
       <FooterTwo/>
     </>
   );

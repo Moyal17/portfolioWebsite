@@ -54,7 +54,7 @@ const portfolioData = [
     category: 'Web Development',
     title: 'Quarterback Gaming Extension',
     client: 'Quarterback | Gaming Platform',
-    date: 'November, 2017',
+    date: 'November, 2018',
   },
   {
     id: 'shaked_tours_ecommerce',
@@ -121,20 +121,20 @@ const portfolioData = [
     date: 'June , 2017'
   },
   {
-    id: 'round_robin_website_new',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/rndrobin2.jpg',
-    category: 'Web Development',
-    title: 'Round Robin Website',
-    client: 'Round Robin',
-    date: 'January, 2017'
-  },
-  {
     id: 'beepost_app',
     img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/beepost.jpg',
     category: 'Web Development',
     title: 'Bee-Post Web Extension',
     client: 'Round Robin | Entrepreneurship Program',
     date: 'February, 2017'
+  },
+  {
+    id: 'round_robin_website_new',
+    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/rndrobin2.jpg',
+    category: 'Web Development',
+    title: 'Round Robin Website',
+    client: 'Round Robin',
+    date: 'January, 2017'
   },
   {
     id: 'eventer_ticket_sell',
