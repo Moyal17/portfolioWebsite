@@ -24,6 +24,9 @@ function MyApp({ Component, pageProps }) {
           <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
           <meta property="og:type" content="website"/>
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+          <meta name="og:title" content="Dor Moyal"/>
+          <meta property="og:image" content="https://res.cloudinary.com/moyalon17/image/upload/v1669900318/dorSeo_yrauvn.jpg"/>
+          <meta property="og:description" content="Delivering highly impactful platforms while I develop & lead the way. a 7+ years experienced, Strategic and creative full-stack developer Optimizing performance as a web designer & developer."/>
           <link rel="icon" href="/favicon.ico"/>
         </Head>
         <Component {...pageProps} />
