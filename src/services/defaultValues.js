@@ -9,7 +9,7 @@ export const defaultDirection = 'ltr';
 
 export const siteMetadata = (pageTitle, font, url) => ({
     url: `https://www.dormoyal.com${url ? `${url}` : '/'}`, // The URL of this page (eg https://google.com/about)
-    title: `${pageTitle} | Dor Moyal`, // Maximum 70 characters.
+    title: `${pageTitle || ''}${pageTitle ? ' | ' : ''}Dor Moyal`, // Maximum 70 characters.
     // The original publication date. ISO 8601 timestamp eg "2019-10-06T13:56:03.123Z"
     // Don't know how useful for random webpages. Add it at least for blog posts.
     datePublished: '2022-03-22T08:00:03.123Z',
