@@ -1,32 +1,61 @@
 import Link from 'next/link';
+import portfolioPageData from "../../data/portfolioPageData";
+import React from "react";
+import LightBox from "../LightBox/LightBox";
+import {NextSeo} from "next-seo";
+import {siteMetadata} from "../../services/defaultValues";
 
 const PortfolioDetailsArea = () => {
+  const data = portfolioPageData.find(item => (item.id === 'aspire_mobile'));
   return (
     <>
+      <NextSeo
+        title={data.title}
+        titleTemplate={data.title}
+        defaultTitle={data.title}
+        description={siteMetadata().description}
+        canonical={siteMetadata(null,null, `/portfolio-details`).url}
+        openGraph={{
+          url: siteMetadata().url,
+          title: siteMetadata().title,
+          description: siteMetadata().description,
+          images: [
+            {
+              url: data.img,
+              width: 600,
+              height: 400,
+              alt: data.title,
+            },
+          ],
+        }}
+      />
       <div className="project-details-area pt-140 pb-130">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-5 col-lg-6">
               <div className="aboutme-image mb-40">
-                <img className="b-radius" src="assets/img/project/project-d.jpg" alt="project img" />
+                <img className="b-radius" src={`${data.img || "/assets/img/project/project-d.jpg"}`} alt="project img" />
               </div>
             </div>
             <div className="col-xl-7 col-lg-6">
               <div className="aboutme-wrapper mb-40">
                 <div className="aboutme-content">
-                  <h3 className="tpabout-xd-title mb-50"><b>Banking App Design &</b> Development</h3>
+                  <h3 className="tpabout-xd-title mb-50">
+                    <b>{data.title}</b>
+                  </h3>
                 </div>
                 <div className="aboutme-feature-list mt-25">
                   <ul>
-                    <li><p>Client:<a href="#"> Rasalina De Willam (USA)</a></p></li>
-                    <li><p>Date:<a href="#"> March 21, 2020</a></p></li>
-                    <li><p>Category:<a href="#"> Technology</a></p></li>
+                    <li><p>Client:<a href="#"> {data.client}</a></p></li>
+                    <li><p>Date:<a href="#"> {data.date}</a></p></li>
+                    <li><p>Category:<a href="#"> {data.category}</a></p></li>
                     <li><p>Category:</p>
                       <div className="aboutme-social ml-10">
-                        <a href="#"><i className="fab fa-facebook-f"></i></a>
-                        <a href="#"><i className="fab fa-instagram"></i></a>
-                        <a href="#"><i className="fab fa-twitter"></i></a>
-                        <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                        { data.social && data.social.facebook && <a href={data.social && data.social.facebook || '#'} target="_blank"><i className="fab fa-facebook-f"></i></a> }
+                        { data.social && data.social.instagram && <a href={data.social && data.social.instagram || '#'} target="_blank"><i className="fab fa-instagram"></i></a> }
+                        { data.social && data.social.linkedin && <a href={data.social && data.social.linkedin || '#'} target="_blank"><i className="fab fa-linkedin"></i></a> }
+                        { data.social && data.social.website && <a href={data.social && data.social.website || '#'} target="_blank"><i className="fab fa-regular fa-globe"></i></a> }
+                        { data.social && data.social.other && <a href={data.social && data.social.other || '#'} target="_blank"><i className="fab fa-regular fa-link"></i></a> }
                       </div>
                     </li>
                   </ul>
@@ -37,34 +66,28 @@ const PortfolioDetailsArea = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="project-details-content">
-                <h4 className="tab-pane-title mb-30"><b>Something about</b> project  Case Studies</h4>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
+                <h4 className="tab-pane-title mb-30"><b>Project</b> Details</h4>
+                {/* eslint-disable-next-line react/jsx-key */}
+                { data.description && data.description.map((desc) => (<p>{desc}</p>))}
+                { data.htmlDescription ? data.htmlDescription() : null }
               </div>
+              { data.workExperience && (
+                <div className="project-details-content">
+                  <h4 className="tab-pane-title mb-30"><b>Work</b> Experience</h4>
+                  { data.workExperience() }
+                </div>
+              )}
               <div className="row mt-45">
-                <div className="col-xl-6 col-lg-6 col-md-6">
-                  <div className="project-details-dimage w-img mb-45">
-                    <img className="b-radius" src="assets/img/project/project-d2.jpg" alt="project img" />
-                  </div>
-                </div>
-                <div className="col-xl-6 col-lg-6 col-md-6">
-                  <div className="project-details-dimage w-img mb-45">
-                    <img className="b-radius" src="assets/img/project/project-d3.jpg" alt="project img" />
-                  </div>
-                </div>
+                <LightBox images={data.images}/>
               </div>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum</p>
               <div className="project-details-nav mt-55">
                 <div className="details-nav-item">
-                  <Link href="/portfolio-details">
+                  <Link href={`/portfolio-details/${data.back ? data.back : data.id}`}>
                     <a><i className="fas fa-long-arrow-left"></i> Back</a>
                   </Link>
                 </div>
                 <div className="details-nav-item">
-                  <Link href="/portfolio-details">
+                  <Link href={`/portfolio-details/${data.next ? data.next : data.id}`}>
                     <a>Next <i className="fas fa-long-arrow-right"></i></a>
                   </Link>
                 </div>

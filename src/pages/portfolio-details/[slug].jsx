@@ -7,6 +7,8 @@ import SEO from '../../components/seo';
 import LightBox from '../../components/LightBox/LightBox';
 import portfolioData from '../../data/portfolioData';
 import portfolioPageData from "../../data/portfolioPageData";
+import {siteMetadata} from "../../services/defaultValues";
+import {NextSeo} from "next-seo";
 
 const PortfolioDetails = () => {
   const router = useRouter();
@@ -23,7 +25,26 @@ const PortfolioDetails = () => {
   }, [id])
   return (
     <>
-      <SEO pageTitle="Profile Details" url={`/portfolio-details/${id}`} />
+      <NextSeo
+        title={portfolioItem.title}
+        titleTemplate={portfolioItem.title}
+        defaultTitle={portfolioItem.title}
+        description={siteMetadata().description}
+        canonical={siteMetadata(null,null, `/portfolio-details/${id}`).url}
+        openGraph={{
+          url: siteMetadata().url,
+          title: siteMetadata().title,
+          description: siteMetadata().description,
+          images: [
+            {
+              url: portfolioItem.img,
+              width: 600,
+              height: 400,
+              alt: portfolioItem.title,
+            },
+          ],
+        }}
+      />
       <Header />
       <div className="project-details-area pt-140 pb-130">
         <div className="container">
