@@ -25,17 +25,23 @@ export const siteMetadata = (pageTitle, font, url) => ({
     },
   images: [
     {
-      url: 'https://res.cloudinary.com/moyalon17/image/upload/w_600,h_600,c_limit//v1541242571/dor_bahapo.jpg',
-      width: 600,
-      height: 600,
-      alt: 'Dor Moyal',
+      url: 'https://res.cloudinary.com/moyalon17/image/upload/w_250,h_250,c_limit//v1541242571/dor_bahapo.jpg',
+      width: 250,
+      height: 250,
+      alt: 'Dor Moyal image',
     },
     {
-      url: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/dor/dor-about3.jpg',
+      url: 'https://res.cloudinary.com/moyalon17/image/upload/v1669900318/dorSeo_yrauvn.jpg',
+      width: 800,
+      height: 420,
+      alt: 'Dor Moyal seo',
+    },
+    {
+      url: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/dor/dor-about1.jpg',
       width: 500,
       height: 500,
-      alt: 'Dor Moyal',
-    },
+      alt: 'Dor Moyal image',
+    }
   ],
 });
 
