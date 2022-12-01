@@ -3,9 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import FooterTwo from '../../components/common/Footers/FooterTwo';
 import Header from '../../components/common/Header';
-import SEO from '../../components/seo';
 import LightBox from '../../components/LightBox/LightBox';
-import portfolioData from '../../data/portfolioData';
 import portfolioPageData from "../../data/portfolioPageData";
 import {siteMetadata} from "../../services/defaultValues";
 import {NextSeo} from "next-seo";
@@ -32,8 +30,8 @@ const PortfolioDetails = () => {
         description={siteMetadata().description}
         canonical={siteMetadata(null,null, `/portfolio-details/${id}`).url}
         openGraph={{
-          url: siteMetadata().url,
-          title: siteMetadata().title,
+          url: siteMetadata(null,null, `/portfolio-details/${id}`).url,
+          title: portfolioItem.title,
           description: siteMetadata().description,
           images: [
             {
