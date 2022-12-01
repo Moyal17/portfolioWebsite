@@ -34,12 +34,7 @@ const PortfolioDetails = () => {
           title: portfolioItem.title,
           description: siteMetadata().description,
           images: [
-            {
-              url: portfolioItem.img,
-              width: 1000,
-              height: 660,
-              alt: portfolioItem.title,
-            }
+            { url: portfolioItem.img }
           ],
         }}
       />

@@ -20,12 +20,7 @@ const PortfolioDetailsArea = () => {
           title: siteMetadata().title,
           description: siteMetadata().description,
           images: [
-            {
-              url: data.img,
-              width: 1000,
-              height: 660,
-              alt: data.title,
-            },
+            { url: data.img },
           ],
         }}
       />
