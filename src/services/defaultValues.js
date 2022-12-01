@@ -25,12 +25,6 @@ export const siteMetadata = (pageTitle, font, url) => ({
     },
   images: [
     {
-      url: 'https://res.cloudinary.com/moyalon17/image/upload/w_250,h_250,c_limit//v1541242571/dor_bahapo.jpg',
-      width: 250,
-      height: 250,
-      alt: 'Dor Moyal image',
-    },
-    {
       url: 'https://res.cloudinary.com/moyalon17/image/upload/v1669900318/dorSeo_yrauvn.jpg',
       width: 800,
       height: 420,
@@ -41,7 +35,13 @@ export const siteMetadata = (pageTitle, font, url) => ({
       width: 500,
       height: 500,
       alt: 'Dor Moyal image',
-    }
+    },
+    {
+      url: 'https://res.cloudinary.com/moyalon17/image/upload/w_250,h_250,c_limit//v1541242571/dor_bahapo.jpg',
+      width: 250,
+      height: 250,
+      alt: 'Dor Moyal image',
+    },
   ],
 });
 

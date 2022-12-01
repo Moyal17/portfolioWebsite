@@ -30,6 +30,12 @@ function MyApp({ Component, pageProps }) {
             description: siteMetadata().description,
             images: [
               {
+                url: 'https://res.cloudinary.com/moyalon17/image/upload/v1669900318/dorSeo_yrauvn.jpg',
+                width: 800,
+                height: 420,
+                alt: 'Dor Moyal seo',
+              },
+              {
                 url: 'https://res.cloudinary.com/moyalon17/image/upload/w_600,h_600,c_limit//v1541242571/dor_bahapo.jpg',
                 width: 600,
                 height: 600,
@@ -40,12 +46,6 @@ function MyApp({ Component, pageProps }) {
                 width: 500,
                 height: 500,
                 alt: 'Dor Moyal image',
-              },
-              {
-                url: 'https://res.cloudinary.com/moyalon17/image/upload/v1669900318/dorSeo_yrauvn.jpg',
-                width: 800,
-                height: 420,
-                alt: 'Dor Moyal seo',
               }
             ],
           }}
