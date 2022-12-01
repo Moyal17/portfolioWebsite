@@ -19,15 +19,15 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider defaultTheme='light'>
       <AppProvider>
         <NextSeo
-          title={`${pageTitle} | Dor Moyal`}
+          title={`Dor Moyal`}
           titleTemplate="Dor Moyal"
           defaultTitle="Dor Moyal"
-          description={siteMetadata(pageTitle, null, url).description}
-          canonical={siteMetadata(pageTitle, null, url).url}
+          description={siteMetadata().description}
+          canonical={siteMetadata().url}
           openGraph={{
-            url: siteMetadata(pageTitle, null, url).url,
-            title: siteMetadata(pageTitle, null, url).title,
-            description: siteMetadata(pageTitle, null, url).description,
+            url: siteMetadata().url,
+            title: siteMetadata().title,
+            description: siteMetadata().description,
             images: [
               {
                 url: 'https://res.cloudinary.com/moyalon17/image/upload/w_600,h_600,c_limit//v1541242571/dor_bahapo.jpg',
