@@ -36,10 +36,10 @@ const PortfolioDetails = () => {
           images: [
             {
               url: portfolioItem.img,
-              width: 600,
-              height: 400,
+              width: 1000,
+              height: 660,
               alt: portfolioItem.title,
-            },
+            }
           ],
         }}
       />

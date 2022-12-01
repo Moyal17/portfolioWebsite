@@ -14,7 +14,7 @@ const PortfolioDetailsArea = () => {
         titleTemplate={data.title}
         defaultTitle={data.title}
         description={siteMetadata().description}
-        canonical={siteMetadata(null,null, `/portfolio-details`).url}
+        canonical={siteMetadata(null,null, `/portfolio-details/aspire_mobile`).url}
         openGraph={{
           url: siteMetadata().url,
           title: siteMetadata().title,
@@ -22,8 +22,8 @@ const PortfolioDetailsArea = () => {
           images: [
             {
               url: data.img,
-              width: 600,
-              height: 400,
+              width: 1000,
+              height: 660,
               alt: data.title,
             },
           ],
