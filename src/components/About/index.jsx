@@ -7,11 +7,12 @@ import TestimonialFour from '../Home-four/TestimonialFour';
 import AboutArea from './AboutArea';
 import AboutCounter from './AboutCounter';
 import CtaImages from './CtaImages';
-import NeroxAwards from './NeroxAwards';
+import SEO from "../seo";
 
 const index = () => {
   return (
     <>
+      <SEO pageTitle="About Me" />
       <Header/>
       <Breadcrumb title="About Me" subtitle="Dor Moyal" />
       <AboutArea/>
