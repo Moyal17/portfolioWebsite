@@ -31,7 +31,7 @@ export const siteMetadata = (pageTitle, font, url) => ({
       alt: 'Dor Moyal seo',
     },
     {
-      url: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/dor/dor-about1.jpg',
+      url: 'https://assets.dormoyal.com/dor/dor-about1.jpg',
       width: 500,
       height: 500,
       alt: 'Dor Moyal image',

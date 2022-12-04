@@ -9,7 +9,7 @@ const AboutFour = () => {
             <div className="col-xl-5 col-lg-5">
               <div className="tpbs-about-image s-about-img-2">
                 <div className="s-about-img-2-inner p-relative fix">
-                  <img src="https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/dor/abr-img-dor.jpg" alt="about-img" />
+                  <img src="https://assets.dormoyal.com/dor/abr-img-dor.jpg" alt="about-img" />
                   <img className="about-shape-1" style={{display: 'none'}} src="assets/img/about/about-shape-1.png" alt="" />
                 </div>
                 <img className="about-shape-2" src="assets/img/about/about-shape-2.png" alt="" />

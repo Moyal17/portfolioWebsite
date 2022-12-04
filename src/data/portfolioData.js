@@ -2,7 +2,7 @@
 const portfolioData = [
   {
     id: 'aspire_mobile',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-mobile.jpg',
+    img: 'https://assets.dormoyal.com/resized/aspire-mobile.jpg',
     category: 'Mobile Design & Development',
     title: 'Aspire - Mobile App',
     client: 'ASPIRE | Personal Training',
@@ -10,7 +10,7 @@ const portfolioData = [
   },
   {
     id: 'aspire_trainer_platform',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-platform.jpg',
+    img: 'https://assets.dormoyal.com/resized/aspire-platform.jpg',
     category: 'Web Design & Development',
     title: 'Aspire - Trainer Platform',
     client: 'ASPIRE | Personal Training',
@@ -18,7 +18,7 @@ const portfolioData = [
   },
   {
     id: 'aspire_website',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/aspire-website.jpg',
+    img: 'https://assets.dormoyal.com/resized/aspire-website.jpg',
     category: 'Web Design & Development',
     title: 'Aspire Website',
     client: 'ASPIRE | Personal Training',
@@ -26,7 +26,7 @@ const portfolioData = [
   },
   {
     id: 'center_parcs_ecommerce',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/centerparcs.jpg',
+    img: 'https://assets.dormoyal.com/resized/centerparcs.jpg',
     category: 'Web Development',
     title: 'Center Parcs Ecommerce Website',
     client: 'Round Trip | SaaS Travel Platform',
@@ -34,7 +34,7 @@ const portfolioData = [
   },
   {
     id: 'ynet_ecommerce',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/ynet.jpg',
+    img: 'https://assets.dormoyal.com/resized/ynet.jpg',
     category: 'Web Development',
     title: 'Ynet Ecommerce Website',
     client: 'Round Trip | SaaS Travel Platform',
@@ -42,7 +42,7 @@ const portfolioData = [
   },
   {
     id: 'ornadlan',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/ornadlan.jpg',
+    img: 'https://assets.dormoyal.com/resized/ornadlan.jpg',
     category: 'Web Development',
     title: 'Or-Nadlan Website',
     client: 'Or-Nadlan Real Estate',
@@ -50,7 +50,7 @@ const portfolioData = [
   },
   {
     id: 'quarterback',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/qb.jpg',
+    img: 'https://assets.dormoyal.com/resized/qb.jpg',
     category: 'Web Development',
     title: 'Quarterback Gaming Extension',
     client: 'Quarterback | Gaming Platform',
@@ -58,7 +58,7 @@ const portfolioData = [
   },
   {
     id: 'shaked_tours_ecommerce',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/shakedtours.jpg',
+    img: 'https://assets.dormoyal.com/resized/shakedtours.jpg',
     category: 'Web Development',
     title: 'Shaked Tours Ecommerce Website',
     client: 'Round Trip | SaaS Travel Platform',
@@ -66,7 +66,7 @@ const portfolioData = [
   },
   {
     id: 'alray_ecommerce',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/alray.jpg',
+    img: 'https://assets.dormoyal.com/resized/alray.jpg',
     category: 'Web Development',
     title: 'Alray Ecommerce Website',
     client: 'Round Trip | SaaS Travel Platform',
@@ -74,7 +74,7 @@ const portfolioData = [
   },
   {
     id: 'acceptivent',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/projects/acceptivent/mockup4.jpg',
+    img: 'https://assets.dormoyal.com/projects/acceptivent/mockup4.jpg',
     category: 'Web Development',
     title: 'Acceptivent',
     client: 'Acceptivent | Plan your Wedding',
@@ -82,7 +82,7 @@ const portfolioData = [
   },
   {
     id: 'pegasus_ecommerce',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/pegasus.jpg',
+    img: 'https://assets.dormoyal.com/resized/pegasus.jpg',
     category: 'Web Development',
     title: 'Pegasus Tours Ecommerce Website',
     client: 'Round Trip | SaaS Travel Platform',
@@ -90,7 +90,7 @@ const portfolioData = [
   },
   {
     id: 'airsales_ecommerce',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/airsales.jpg',
+    img: 'https://assets.dormoyal.com/resized/airsales.jpg',
     category: 'Web Development',
     title: 'Air Sales Ecommerce Website',
     client: 'Round Trip | SaaS Travel Platform',
@@ -98,7 +98,7 @@ const portfolioData = [
   },
   {
     id: 'eventer_admin_panel',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/eventer1.jpg',
+    img: 'https://assets.dormoyal.com/resized/eventer1.jpg',
     category: 'Web Development',
     title: 'Eventer - Admin Panel',
     client: 'Eventer | Ticketing System',
@@ -106,7 +106,7 @@ const portfolioData = [
   },
   {
     id: 'graiver_ecommerce',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/graiver.jpg',
+    img: 'https://assets.dormoyal.com/resized/graiver.jpg',
     category: 'Web Development',
     title: 'Graiver Ecommerce Website',
     client: 'Round Trip | SaaS Travel Platform',
@@ -114,7 +114,7 @@ const portfolioData = [
   },
   {
     id: 'airindia_ecommerce',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/airindia.jpg',
+    img: 'https://assets.dormoyal.com/resized/airindia.jpg',
     category: 'Web Development',
     title: 'Air India Ecommerce Website',
     client: 'Round Trip | SaaS Travel Platform',
@@ -122,7 +122,7 @@ const portfolioData = [
   },
   {
     id: 'beepost_app',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/beepost.jpg',
+    img: 'https://assets.dormoyal.com/resized/beepost.jpg',
     category: 'Web Development',
     title: 'Bee-Post Web Extension',
     client: 'Round Robin | Entrepreneurship Program',
@@ -130,7 +130,7 @@ const portfolioData = [
   },
   {
     id: 'round_robin_website_new',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/rndrobin2.jpg',
+    img: 'https://assets.dormoyal.com/resized/rndrobin2.jpg',
     category: 'Web Development',
     title: 'Round Robin Website',
     client: 'Round Robin',
@@ -138,7 +138,7 @@ const portfolioData = [
   },
   {
     id: 'eventer_ticket_sell',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/eventer2.jpg',
+    img: 'https://assets.dormoyal.com/resized/eventer2.jpg',
     category: 'Web Development',
     title: 'Eventer - Ticket Selling Platform',
     client: 'Eventer | Ticketing System',
@@ -146,7 +146,7 @@ const portfolioData = [
   },
   {
     id: 's2r',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/s2r.jpg',
+    img: 'https://assets.dormoyal.com/resized/s2r.jpg',
     category: 'Web Development',
     title: 'S2R Website',
     client: 'S2R Website',
@@ -154,7 +154,7 @@ const portfolioData = [
   },
   {
     id: 'round_robin_website',
-    img: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/resized/rndrobin.jpg',
+    img: 'https://assets.dormoyal.com/resized/rndrobin.jpg',
     category: 'Web Development',
     title: 'Round Robin Website',
     client: 'Round Robin',

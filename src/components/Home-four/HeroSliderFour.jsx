@@ -7,19 +7,19 @@ const HeroSliderFour = () => {
   const sliderData = [
     {
       id: 1,
-      bg: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/dor/slider-2-2.jpg',
+      bg: 'https://assets.dormoyal.com/dor/slider-2-2.jpg',
       title: 'PROVIDE SERVICE WITH EXCLUSIVE FEATURES',
       subtitle: <>Producing <span>end-to-end products</span></>
     },
     {
       id: 2,
-      bg: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/dor/slider-2-4.jpg',
+      bg: 'https://assets.dormoyal.com/dor/slider-2-4.jpg',
       title: 'PROVIDE BEST SERVICE WITH EXCLUSIVE METARIALS',
       subtitle: <>Growing <span>through Development</span></>
     },
     {
       id: 3,
-      bg: 'https://dor-portfolio-assets.s3.eu-central-1.amazonaws.com/dor/slider-2-5.jpg',
+      bg: 'https://assets.dormoyal.com/dor/slider-2-5.jpg',
       title: 'WE PROVIDE BEST SERVICE WITH EXCLUSIVE SUPPORT',
       subtitle: <>Creativity <span>through Code.</span></>
     },
