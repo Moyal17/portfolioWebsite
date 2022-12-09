@@ -67,7 +67,7 @@ const ServicesFour = () => {
                               </Link>
                             </h4>
                             <p>{item.desc}</p>
-                            <div className="tpservices__btn mt-30">
+                            <div className="tpservices__btn mt-30 display-none">
                               <Link href={`/service-details/${item.id}`}>More Details</Link>
                             </div>
                           </div>
